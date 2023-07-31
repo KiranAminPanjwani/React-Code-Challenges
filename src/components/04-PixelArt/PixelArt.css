@@ -1,0 +1,37 @@
+/* PixelArt.css */
+
+/* Center the whole PixelArt component */
+.pixel-art-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Center the color picker div */
+  .color-picker-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the color picker buttons */
+  .color-picker-container button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Center the pixels grid */
+  .pixels-container {
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    gap: 4px;
+    /* background-color: lightgrey; */
+    /* padding: 10px; */
+  }
+  

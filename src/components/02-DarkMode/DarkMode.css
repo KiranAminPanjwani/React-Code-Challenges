@@ -1,0 +1,21 @@
+/* Dark mode styles */
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}.page.dark-mode {
+    background-color: black;
+  }
+  
+  .dark-mode-button {
+    background-color: white;
+    color: black;
+  }
+  
+  .light-mode-button {
+    background-color: black;
+    color: white;
+  }
+  
